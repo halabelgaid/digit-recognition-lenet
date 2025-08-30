@@ -40,3 +40,19 @@ digit-recognition-lenet/
 │   └── DIGIT.npy           # Sample digit dataset (preprocessed)
 ├── models/                 # Saved models (not committed)
 └── outputs/                # Evaluation outputs (not committed)
+
+---
+
+## How to Run
+
+### Train the model
+```bash
+python src/train.py
+
+### Test the model
+python src/test.py
+
+### Evaluate performance
+python src/evaluation.py
+
+
