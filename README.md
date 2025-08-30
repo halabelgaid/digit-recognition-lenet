@@ -41,18 +41,12 @@ digit-recognition-lenet/
 ├── models/                 # Saved models (not committed)
 └── outputs/                # Evaluation outputs (not committed)
 
+```
 ---
 
 ## How to Run
-
-### Train the model
-```bash
-python src/train.py
-
-### Test the model
-python src/test.py
-
-### Evaluate performance
-python src/evaluation.py
+- **Train the model:** `python src/train.py`
+- **Test the model:** `python src/test.py`
+- **Evaluate performance:** `python src/evaluation.py`
 
 
